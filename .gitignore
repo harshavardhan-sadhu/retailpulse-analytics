@@ -220,3 +220,11 @@ data/raw/
 data/processed/
 *.xlsx
 *.csv
+
+# ML artifacts
+mlruns/
+mlflow.db
+models/*.pkl
+models/*.h5
+models/*.ckpt
+*.pkl
