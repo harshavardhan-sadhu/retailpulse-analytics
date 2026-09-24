@@ -217,15 +217,18 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 data/raw/
-data/processed/
+data/processed/*
+!data/processed/customer_segments.csv
+!data/processed/prophet_forecast.csv
+!data/processed/daily_sales_timeseries.csv
+!data/processed/inventory_recommendations.csv
 *.xlsx
 *.csv
 
 # ML artifacts
 mlruns/
 mlflow.db
-models/*.pkl
 models/*.h5
 models/*.ckpt
-*.pkl
+!models/churn_model.pkl
 *.pth
