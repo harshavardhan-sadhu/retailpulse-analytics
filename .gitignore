@@ -228,3 +228,4 @@ models/*.pkl
 models/*.h5
 models/*.ckpt
 *.pkl
+*.pth
